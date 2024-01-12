@@ -30,7 +30,12 @@ button {
 }
 
 button:hover {
+  background-color: #333e6e;
+}
+
+button:disabled {
   background-color: #ddd;
   color: #666;
   cursor: not-allowed;
 }
+
